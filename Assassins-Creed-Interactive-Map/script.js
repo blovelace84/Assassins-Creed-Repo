@@ -16,16 +16,30 @@ const cities = {
     }
 };
 
-document.querySelectorAll(".city").forEach(city =>{
-    city.addEventListener('mouseover', function() {
-        const cityName = this.getAttribute('data-city');
-        const infoBox = this.getAttribute('info-box');
+const mapContainer = document.querySelector('.map-container');
+
+//Create and add info-box dynamically if not present
+let infoBox = document.getElementById('info-box');
+if(!infoBox) {
+    infoBox = document.createElement('div');
+    infoBox.id = 'info-box';
+    mapContainer.appendChild(infoBox);
+}
+
+document.querySelectorAll(".city").forEach(city => {
+    city.addEventListener("mouseover", function() {
+        const cityName = this.getAttribute("data-city");
 
         infoBox.innerHTML = `<strong>${cityName}</strong><br>${cities[cityName].info}<br>
-                            <img src="${cities[cityName].image}" alt="${cityName}" style="width:100px;height:auto;">`;
-        infoBox.style.display = 'block';
+                             <img src="${cities[cityName].image}" width="100%">`;
+
+        infoBox.style.display = "block";
+        infoBox.style.position = "absolute";
+        infoBox.style.top = `${this.offsetTop - 70}px`;
+        infoBox.style.left = `${this.offsetLeft + 20}px`;
     });
-    city.addEventListener('mouseleave', function() {
-        document.getElementById('info-box').style.display = 'none';
+
+    city.addEventListener("mouseleave", function() {
+        infoBox.style.display = "none";
     });
 });
