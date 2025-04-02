@@ -1,14 +1,15 @@
-document.addEventListener("scroll", function() {
-    let scrollPos = window.scrollY;
+function leapOfFaith() {
+    let jumpSound = document.getElementById("jumpSound");
     let assassin = document.getElementById("assassin");
 
-    //Adjust falling speed based on scroll position
-    assassin.style.top = 20 + scrollPos * 0.3 + "%";
+    jumpSound.onplay();
 
-    //optional: add fade-in effect when near haystack
-    if (scrollPos > window.innerHeight * 1.8) {
-        assassin.style.opacity = "0";
-    }else{
-        assassin.style.opacity = "1"
-    }
-});
+    // Start leap animation
+    assassin.style.top = "80vh"; // Moves down
+    assassin.style.transform = "rotate(180deg)"; // Flips while falling
+
+    // Optional: Hide assassin after landing
+    setTimeout(() => {
+        assassin.style.display = "none";
+    }, 2000);
+}
