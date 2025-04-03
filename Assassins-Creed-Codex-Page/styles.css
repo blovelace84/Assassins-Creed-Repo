@@ -1,4 +1,8 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     font-family: 'Garamond', serif;
     background: url('images/parchment.jpg') no-repeat center center fixed;
     background-size: cover;
