@@ -41,19 +41,33 @@ body{
     text-align: left;
 }
 
-.more-info{
-    display: inline-block;
-    color: darkred;
+.more-info-btn{
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
     font-weight: bold;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.more-info-btn:hover{
+    background-color: #a30000;
 }
 
 .tooltip{
     display: none;
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25px;
     background: #fff5dc;
+    color: #3a2c1f;
     border: 1px solid #8b5e3b;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    white-space: nowrap;
 }
