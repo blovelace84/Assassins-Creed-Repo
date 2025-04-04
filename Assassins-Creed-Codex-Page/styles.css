@@ -60,14 +60,14 @@ body{
 .tooltip{
     display: none;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 25px;
+    max-width: 250px; /* Limit width to prevent it from going too wide */
     background: #fff5dc;
     color: #3a2c1f;
     border: 1px solid #8b5e3b;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    white-space: nowrap;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words if needed */
+    z-index: 999; /* Ensure it appears on top */
 }
