@@ -1,5 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById("searchInput");
+    const codexEntries = document.querySelectorAll(".codex-entry");
+
     const buttons = document.querySelectorAll(".more-info-btn");
+
+    searchInput.addEventListener("input", function() {
+        const searchValue = searchInput.value.toLowerCase();
+
+        codexEntries.forEach(entry => {
+            const title = entry.querySelector("h2").textContent.toLowerCase();
+            if(title.includes(searchValue)) {
+                entry.style.display = 'flex';
+            }else{
+                entry.style.display = 'none';
+            }
+        });
+    });
 
     buttons.forEach(btn => {
         btn.addEventListener("click", function () {
