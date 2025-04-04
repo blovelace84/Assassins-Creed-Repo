@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Ezio Auditore",
+      "image": "images/ezio.jpg",
+      "summary": "A legendary Assassin from the Italian Renaissance.",
+      "details": "Ezio was born in Florence and became one of the greatest Assassins."
+    },
+    {
+      "name": "Altaïr Ibn-La'Ahad",
+      "image": "images/altair.jpg",
+      "summary": "A Master Assassin from the 12th century.",
+      "details": "Altaïr reformed the Assassin Brotherhood and wrote the Codex."
+    },
+    {
+      "name": "Ratonhnhaké:ton (Conner) Kenway",
+      "image": "images/connor.jpg",
+      "summary": "Also known as Connor, which is much easier to pronounce. Ratonhnhaké:ton stars as the first leading Assassin during the Colonial era in Assassin’s Creed III and also appears in Assassin’s Creed III: Liberation.",
+      "details": "Also known as Connor, which is a much easier to pronounce, Ratonhnhaké:ton stars as the first leading Assassin during the Colonial era in Assassin’s Creed III and also appears in Assassin’s Creed III: Liberation. Connor is the first Assassin in the games to wield a bow and also climb trees, which proves effective for escaping enemies and stealth attacks. Fighting for the Patriots during the American Revolution War, Connor becomes allies with Commander (George) Washington as he seeks to destroy the Colonial Templars."
+    },
+    {
+      "name": "Haytham Kenway",
+      "image": "images/Haytham Kenway.jpg",
+      "summary": "Although Haytham technically isn’t an Assassin, he’s a Templar, he plays a key role in Assassin’s Creed Rogue – a prequel to ACIII. ",
+      "details": "British-born Haytham is, wait for it, Connor’s father and is also a playable character in the ACIII prologue, where players infiltrate the Royal Opera House to assassinate a patron before later meeting Connor’s mother – a member of the Native American confederacy ‘Haudenosaunee’.He was trained to become an Assassin by his father Edward James Kenway, but after Edward’s death, Templar Reginald Birch took young Haytham under his wing – nurturing him over to the dark side, which resulted in him becoming a Grand Master of the Templars."
+    }
+  ]
+  
