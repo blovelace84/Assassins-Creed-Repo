@@ -1,15 +1,9 @@
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: 'Garamond', serif;
-    background: url('images/parchment.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #3a2c1f;
-    text-align: center;
+    font-family: 'Cinzel', serif;
+    background-color: #f1e7d0;
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    text-align: center;
 }
 
 .codex-container{
@@ -72,16 +66,17 @@ body{
     z-index: 999; /* Ensure it appears on top */
 }
 
+.title{
+    margin-top: 10px;
+    font-size: 2.5rem;
+}
+
 .search-box{
-    display: block;
     margin: 20px auto;
-    padding: 10px 15px;
-    font-size: 16px;
-    border: 2px solid #8b5e3b;
-    border-radius: 8px;
-    width: 80%;
+    padding: 10px;
+    width: 60%;
     max-width: 400px;
-    background-color: #fff5dc;
-    color: #3a2c1f;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    font-size: 1em;
+    border: 2px solid #333;
+    border-radius: 5px;
 }
