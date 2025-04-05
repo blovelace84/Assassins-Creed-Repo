@@ -2,7 +2,7 @@ let originalQuizData = [];
 
 // Load quiz data once and store it
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("quiz-data.json")
+  fetch("ac-codex/quiz-data.json")
     .then(response => {
       if (!response.ok) {
         throw new Error("Failed to load quiz data");
