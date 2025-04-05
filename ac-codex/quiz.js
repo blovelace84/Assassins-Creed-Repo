@@ -33,6 +33,11 @@ function startQuiz() {
 }
 
 function displayQuiz(quizData) {
+  if (!Array.isArray(quizData)) {
+    console.error("Quiz data is not an array:", quizData);
+    return;
+  }
+  
   const quizContainer = document.getElementById("quizContainer");
   quizContainer.innerHTML = "";
 
