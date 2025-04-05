@@ -108,54 +108,60 @@ body{
     margin-bottom: 20px;
   }
   
-  /* Quiz container styling */
-  .quiz-container {
-    background-color: rgba(255, 248, 220, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 80%;
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .quiz-wrapper {
+    background: #2e2e2e;
+    padding: 2rem;
+    border-radius: 12px;
     max-width: 600px;
-    margin: 0 auto;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
   }
   
-  /* Button styling */
-  #submitQuiz {
-    background-color: #e63946;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 20px;
-  }
-  
-  #submitQuiz:hover {
-    background-color: #d62828;
-  }
-
-  #resetQuiz {
-    display: block;
-    margin: 0 auto 2rem auto;
-    padding: 0.6rem 1.5rem;
-    background-color: #9a6a3f;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-    #resetQuiz:hover {
-        background-color: #7a4b2a;
-    }
-  
-  /* Quiz result styling */
-  #quizResult {
-    margin-top: 20px;
-    font-size: 1.2rem;
+  h1 {
     text-align: center;
-    color: #38b000;
+    color: #f2d189;
+    margin-bottom: 1.5rem;
   }
+  
+  .quiz-question {
+    margin-bottom: 1.5rem;
+  }
+  
+  .quiz-option {
+    display: block;
+    margin: 0.5rem 0;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: #8c5e3c;
+    border: none;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    margin: 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #a3704c;
+  }
+  
+  #quizResult {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  

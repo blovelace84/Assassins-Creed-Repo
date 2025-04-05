@@ -1,0 +1,43 @@
+[
+    {
+        "question": "Who trained Ezio?",
+        "Options": ["Leonardo Da Vinci", "Mario Auditore", "Altair"],
+        "correct": "Mario Auditore"
+    },
+    {
+        "question": "Which assassin came from Egypt?",
+        "options": ["Ezio", "Bayek", "Altair"],
+        "correct": "Bayek"
+    },
+    {
+        "question": "What is the name of the first assassin?",
+        "options": ["Ezio", "Bayek", "Altair"],
+        "correct": "Altair"
+    },
+    {
+        "question": "What city was Alexios born in?",
+        "options": ["Athens", "Sparta", "Rome"],
+        "correct": "Sparta"
+    },
+    {
+        "question": "Who adopted Arno and raised him?",
+        "options": ["Napoleon", "Pierre Bellec", "François de la Serre"],
+        "correct": "François de la Serre"
+    },
+    {
+        "question": "Who is Shao's Mentor (current and former)?",
+        "options": ["Ezio Auditore", "Alexios", "François de la Serre"],
+        "correct": "Ezio Auditore"
+    },
+
+     {
+      "question": "What is the name of the main organization the Assassins fight against?",
+      "options": ["The Templars", "The Romans", "The Vikings"],
+      "correct": "The Templars"
+    },
+    {
+      "question": "Which game is set in Victorian London?",
+      "options": ["Unity", "Syndicate", "Origins"],
+      "correct": "Syndicate"
+    }
+]
