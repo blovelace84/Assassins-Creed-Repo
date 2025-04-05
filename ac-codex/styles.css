@@ -134,6 +134,23 @@ body{
   #submitQuiz:hover {
     background-color: #d62828;
   }
+
+  #resetQuiz {
+    display: block;
+    margin: 0 auto 2rem auto;
+    padding: 0.6rem 1.5rem;
+    background-color: #9a6a3f;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+    #resetQuiz:hover {
+        background-color: #7a4b2a;
+    }
   
   /* Quiz result styling */
   #quizResult {

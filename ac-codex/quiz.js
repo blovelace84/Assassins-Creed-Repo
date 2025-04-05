@@ -81,4 +81,15 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById("quizResult").textContent = `You got ${score}/${quizData.length} correct!`;
     });
   });
-  
+
+
+document.getElementById("resetQuiz").addEventListener("click", () => {
+    //Clear all selected answers
+    const ratios = document.querySelectorAll('input[type="radio"]');
+    ratios.forEach(radio => {
+        radio.checked = false;
+    });
+
+    //Clear the result message
+    docoument.getElementById("quizResult").textContent = "";
+});
