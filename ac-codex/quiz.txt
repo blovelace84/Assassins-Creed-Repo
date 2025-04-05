@@ -28,3 +28,14 @@
         options: ["Ezio Auditore", "Alexios", "François de la Serre"],
         correct: "Ezio Auditore",
     },
+
+     {
+      question: "What is the name of the main organization the Assassins fight against?",
+      options: ["The Templars", "The Romans", "The Vikings"],
+      correct: "The Templars"
+    },
+    {
+      question: "Which game is set in Victorian London?",
+      options: ["Unity", "Syndicate", "Origins"],
+      correct: "Syndicate"
+    }
